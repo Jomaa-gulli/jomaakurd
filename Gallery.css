@@ -1,0 +1,78 @@
+body{
+    background-image: url(/photo/barber-shop-gde85ee670_1920.jpg);
+    background-size: cover;
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100vh;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 30px;
+    background-image: linear-gradient(rgba(0,0,0,.3) , rgba(0,0,0,.8));
+}
+.logo{
+    font-size: 40px;
+    text-transform: uppercase;
+    padding: 5px;
+    margin: 11px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: rgb(53, 138, 87);
+}
+header ul{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    list-style: none;
+}
+header ul li{
+    margin-right: 30px;
+    font-size: 27px;
+}
+header ul li a{
+    padding: 6px 15px;
+    border-radius: 30px;  
+}
+header ul li a:hover{
+    background-color: aliceblue;
+    color: black;
+}
+.logo:hover{
+    font-weight: bold;
+    background-color: rgb(48, 55, 55);
+    border-radius: 5px;
+}
+
+button{
+    background-color: aliceblue;
+    font-size: 33px;
+    color: brown;
+    padding: 15px;
+    border-radius: 22px;
+    opacity: 88%;
+   margin-left: 58rem;
+   margin-top: 33px;
+}
+button:hover{
+    border: 3px solid rgb(26, 149, 45);
+}
+.photo img{
+  height: 350px;
+  width: 450px;
+  margin: 5px;
+  border: 3px solid white;
+  margin-left:47px;
+  border-radius: 11px;
+  margin-top: 88px;
+  box-shadow: 0 5px 25px rgb(1 1 1 /88%);
+}
+.photo img:hover {
+    transform: scale(1.1);
+    transition: 0.7s;
+    border: 3px solid rgb(26, 149, 45);
+}
+
